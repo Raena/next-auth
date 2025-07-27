@@ -151,6 +151,7 @@ export async function callback(
           profile: OAuthProfile,
           isNewUser,
           trigger: isNewUser ? "signUp" : "signIn",
+          anonId: "anooooooooon"
         })
 
         // Clear cookies if token is null
